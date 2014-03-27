@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 5 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+    <title>W.S.C. application</title>
+    <meta http-equiv="Content-Type" content="text/html" charset="windows-1250" />
+    <meta name="author" content="Marek Filteš" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="keywords" content="web sites culstering" />
+    <link rel="stylesheet" type="text/css" href="style/main.css" />
+    <script type="text/javascript" src="script/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="script/jquery-2.0.3.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="script/arbor-v0.92/lib/arbor.js"></script>
+    <script type="text/javascript" src="script/arbor-v0.92/demos/_/graphics.js" ></script>
+    <script type="text/javascript" src="script/arbor-v0.92/demos/halfviz/src/renderer.js" ></script>
+    <script type="text/javascript" src="script/logic.js"></script>
+    <script type="text/javascript" src="script/canvas.js"></script>
+    <script type="text/javascript" src="script/rotator.js"></script>
+</head>
+<body onload="loadCanvas();">
+    <div id="loadPage" style="display: block">
+        <div id="rotator"></div>
+        <p>W.S.C. APPLICATION</p>
+    </div>
+
+    <div id="contentPage" style="display: none">
+        <div id="title" class="title">
+            <p>
+                <label id="webButton" onclick="webClick()" title="Add URL adress">Web </label>
+                <label id="siteButton" onclick="sitesClick()" title="Proccess geting base data from each URL adresses">Sites </label>
+                <label id="clusteringButton" onclick="clusteringClick();cluster()" title="Proccess selected significante words and create graph">Clustering </label>
+                <label id="applicationButton">Application </label>
+            </p>
+            <div class="lineSquaresDiv">
+                <canvas id="lineSquares" style="width: 1000px; height: 20px;"></canvas>
+            </div>
+
+        </div>
+        <div id="mainSection">
+            <div id="URLform">
+                <h1 id="addTitle">Add URL adresses</h1>              
+                <h1 id="urlAdresses" style="display: none" onclick="hideShow();">List of unique valid URL adresses</h1> 
+                <label class="specification">Only categorized <input id="sOnly" checked type="checkbox" /></label>
+                <label class="specification">Frequency of word <input min="1" value="1" style="width:25px" type="number" id="sMF" onchange="autoFreq(this.id)" /> to <input min="1" value="3" style="width:30px" type="number" id="SMF" onchange="autoFreq(this.id)"  /></label>
+                <label class="specification">Word length <input value="4" style="width:25px" type="number" min="3" id="sML" onchange="autoLen(this.id)" /> to <input value="7" style="width:30px" type="number" min="3" id="SML" onchange="autoLen(this.id)" /></label>
+                <textarea name="urlList" id="urlList" required></textarea>
+                <div id="links"></div>
+            </div>
+            <div id="chartSection">
+                    <canvas id="viewport" width="750" height="550"></canvas>
+                    <p><a id="tree" style="display:none" class="xml" href='documents/MinSpannigTree.xml' target="_blank">MinSpannigTree.xml</a></p>                   
+            </div>
+            
+        </div>
+        <div id="footer">
+            <p>
+                time:
+            <label id="sec">0</label>s 
+            <label id="info"></label><br />         
+            </p>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,2360 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><site dateStamp="2014-03-27 08:24:15" gateProccessed="true" title="Levenshtein distance - Wikipedia, the free encyclopedia" url="http://en.wikipedia.org/wiki/Levenshtein_distance"><text>
+  
+    
+    
+    Levenshtein distance   Wikipedia  the free encyclopedia
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+a lang ar  a lang kk arab  a lang mzn  a lang ps  a lang ur  text decoration none 
+   cache key  enwiki resourceloader filter minify css 7 3904d24a08aa08f6a68dc338f9be277e   
+    
+    
+ script type  text javascript  xml space  preserve  
+if window mw  
+mw config set   wgCanonicalNamespace      wgCanonicalSpecialPageName  false  wgNamespaceNumber  0  wgPageName   Levenshtein distance   wgTitle   Levenshtein distance   wgCurRevisionId  600148435  wgRevisionId  600148435  wgArticleId  406418  wgIsArticle  true  wgIsRedirect  false  wgAction   view   wgUserName  null  wgUserGroups         wgCategories    Articles to be merged from January 2014   All articles to be merged   Articles to be merged from November 2013   Articles needing additional references from February 2010   All articles needing additional references   String similarity measures   Dynamic programming   Articles with example pseudocode   Quantitative linguistics    wgBreakFrames  false  wgPageContentLanguage   en   wgPageContentModel   wikitext   wgSeparatorTransformTable           wgDigitTransformTable           wgDefaultDateFormat   dmy   wgMonthNames       January   February   March   April   May   June   July   August   September   October   November   December    wgMonthNamesShort       Jan   Feb   Mar   Apr   May   Jun   Jul   Aug   Sep   Oct   Nov   Dec    wgRelevantPageName   Levenshtein distance   wgIsProbablyEditable  true  wgRestrictionEdit      wgRestrictionMove      wgWikiEditorEnabledModules    toolbar  true  dialogs  true  hidesig  true  templateEditor  false  templates  false  preview  false  previewDialog  false  publish  false  toc  false   wgBetaFeaturesFeatures      wgVisualEditor    isPageWatched  false  magnifyClipIconURL     bits wikimedia org static 1 23wmf18 skins common images magnify clip png   pageLanguageCode   en   pageLanguageDir   ltr   svgMaxSize  2048   wikilove recipient      wikilove anon  0  wgGuidedTourHelpGuiderUrl   Help Guided tours guider   wgFlowTermsOfUseEdit   By saving changes  you agree to our  u003Ca class   external text   href     wikimediafoundation org wiki Terms of use   u003ETerms of Use u003C a u003E and agree to irrevocably release your text under the  u003Ca rel   nofollow   class   external text   href     creativecommons org licenses by sa 3 0   u003ECC BY SA 3 0 License u003C a u003E and  u003Ca class   external text   href     en wikipedia org wiki Wikipedia Text of the GNU Free Documentation License   u003EGFDL u003C a u003E   wgULSAcceptLanguageList    en gb    wgULSCurrentAutonym   English   wgFlaggedRevsParams    tags    status    levels  1  quality  2  pristine  3     wgStableRevisionId  null  wgCategoryTreePageCategoryOptions      mode   0   hideprefix   20   showcount   true   namespaces   false    wgNoticeProject   wikipedia   wgWikibaseItemId   Q496939    
+ 
+    
+
+if window mw  
+mw loader implement  user options  function   mw user options set   ccmeonemails  0  cols  80  date   default   diffonly  0  disablemail  0  editfont   default   editondblclick  0  editsectiononrightclick  0  enotifminoredits  0  enotifrevealaddr  0  enotifusertalkpages  1  enotifwatchlistpages  0  extendwatchlist  0  fancysig  0  forceeditsummary  0  gender   unknown   hideminor  0  hidepatrolled  0  imagesize  2  math  0  minordefault  0  newpageshidepatrolled  0  nickname      norollbackdiff  0  numberheadings  0  previewonfirst  0  previewontop  1  rcdays  7  rclimit  50  rememberpassword  0  rows  25  showhiddencats  false  shownumberswatching  1  showtoolbar  1  skin   vector   stubthreshold  0  thumbsize  4  underline  2  uselivepreview  0  usenewrc  0  watchcreations  1  watchdefault  0  watchdeletion  0  watchlistdays  3  watchlisthideanons  0  watchlisthidebots  0  watchlisthideliu  0  watchlisthideminor  0  watchlisthideown  0  watchlisthidepatrolled  0  watchmoves  0 
+ wllimit  250  useeditwarning  1  prefershttps  1  flaggedrevssimpleui  1  flaggedrevsstable  0  flaggedrevseditdiffs  true  flaggedrevsviewdiffs  false  usebetatoolbar  1  usebetatoolbar cgd  1  visualeditor enable  0  visualeditor enable experimental  0  visualeditor enable mwmath  0  visualeditor betatempdisable  0  wikilove enabled  1  echo subscriptions web page review  true  echo subscriptions email page review  false  ep showtoplink  false  ep bulkdelorgs  false  ep bulkdelcourses  true  ep showdyk  true  echo subscriptions web education program  true  echo subscriptions email education program  false  echo notify show link  true  echo show alert  true  echo email frequency  0  echo email format   html   echo subscriptions email system  true  echo subscriptions web system  true  echo subscriptions email other  false  echo subscriptions web other  true  echo subscriptions email edit user talk  false  echo subscriptions web edit user talk  true  echo subscriptions email reverted  
+false  echo subscriptions web reverted  true  echo subscriptions email article linked  false  echo subscriptions web article linked  false  echo subscriptions email mention  false  echo subscriptions web mention  true  echo subscriptions web edit thank  true  echo subscriptions email edit thank  false  echo subscriptions web flow discussion  true  echo subscriptions email flow discussion  false  gettingstarted task toolbar show intro  true  uls preferences      language   en   variant gan   gan   variant iu   iu   variant kk   kk   variant ku   ku   variant shi   shi   variant sr   sr   variant tg   tg   variant uz   uz   variant zh   zh   searchNs0  true  searchNs1  false  searchNs2  false  searchNs3  false  searchNs4  false  searchNs5  false  searchNs6  false  searchNs7  false  searchNs8  false  searchNs9  false  searchNs10  false  searchNs11  false  searchNs12  false  searchNs13  false  searchNs14  false  searchNs15  false  searchNs100  false  searchNs101  false  searchNs108  false 
+ searchNs109  false  searchNs118  false  searchNs119  false  searchNs446  false  searchNs447  false  searchNs710  false  searchNs711  false  searchNs828  false  searchNs829  false  gadget teahouse  1  gadget ReferenceTooltips  1  gadget DRN wizard  1  gadget charinsert  1  gadget mySandbox  1  variant   en             mw loader implement  user tokens  function   mw user tokens set   editToken         patrolToken  false  watchToken  false            
+   cache key  enwiki resourceloader filter minify js 7 0378eace27e3aee431624f77f4809281   
+ 
+    
+
+if window mw  
+mw loader load   mediawiki page startup   mediawiki legacy wikibits   mediawiki legacy ajax   ext centralauth centralautologin   ext visualEditor viewPageTarget init   ext uls init   ext uls interface   wikibase client init   ext centralNotice bannerController   skins vector js    
+ 
+    
+
+   lt    
+ source c  line height  normal  
+ source c li   source c pre  
+        line height  normal  border  0px none white 
+ 
+   
+   GeSHi Dynamically Generated Stylesheet
+                                         
+   Dynamically generated stylesheet for c
+   CSS class  source c  CSS id  
+   GeSHi  C  2004   2007 Nigel McNie  2007   2008 Benny Baumann
+    http   qbnz com highlighter  and http   geshi org  
+                                         
+   
+ c source c  de1   c source c  de2  font  normal normal 1em 1 2em monospace  margin 0  padding 0  background none  vertical align top font family  monospace  monospace  
+ c source c   font family monospace  
+ c source c  imp  font weight  bold  color  red  
+ c source c li   c source c  li1  font weight  normal  vertical align top  
+ c source c  ln  width 1px text align right margin 0 padding 0 2px vertical align top  
+ c source c  li2  font weight  bold  vertical align top  
+ c source c  kw1  color   b1b100  
+ c source c  kw2  color   000000  font weight  bold  
+ c source c  kw3  color   000066  
+ c source c  kw4  color   993333  
+ c source c  co1  color   666666  font style  italic  
+ c source c  co2  color   339933  
+ c source c  coMULTI  color   808080  font style  italic  
+ c source c  es0  color   000099  font weight  bold  
+ c source c  es1  color   000099  font weight  bold  
+ c source c  es2  color   660099  font weight  bold  
+ c source c  es3  color   660099  font weight  bold  
+ c source c  es4  color   660099  font weight  bold  
+ c source c  es5  color   006699  font weight  bold  
+ c source c  br0  color   009900  
+ c source c  sy0  color   339933  
+ c source c  st0  color   ff0000  
+ c source c  nu0  color   0000dd  
+ c source c  nu6  color   208080  
+ c source c  nu8  color   208080  
+ c source c  nu12  color   208080  
+ c source c  nu16  color  800080  
+ c source c  nu17  color  800080  
+ c source c  nu18  color  800080  
+ c source c  nu19  color  800080  
+ c source c  me1  color   202020  
+ c source c  me2  color   202020  
+ c source c  ln xtra   c source c li ln xtra   c source c div ln xtra  background color   ffc  
+ c source c span xtra   display block   
+
+      
+    
+
+   lt    
+ source csharp  line height  normal  
+ source csharp li   source csharp pre  
+        line height  normal  border  0px none white 
+ 
+   
+   GeSHi Dynamically Generated Stylesheet
+                                         
+   Dynamically generated stylesheet for csharp
+   CSS class  source csharp  CSS id  
+   GeSHi  C  2004   2007 Nigel McNie  2007   2008 Benny Baumann
+    http   qbnz com highlighter  and http   geshi org  
+                                         
+   
+ csharp source csharp  de1   csharp source csharp  de2  font  normal normal 1em 1 2em monospace  margin 0  padding 0  background none  vertical align top font family  monospace  monospace  
+ csharp source csharp   font family monospace  
+ csharp source csharp  imp  font weight  bold  color  red  
+ csharp source csharp li   csharp source csharp  li1  font weight  normal  vertical align top  
+ csharp source csharp  ln  width 1px text align right margin 0 padding 0 2px vertical align top  
+ csharp source csharp  li2  font weight  bold  vertical align top  
+ csharp source csharp  kw1  color   0600FF  font weight  bold  
+ csharp source csharp  kw2  color   FF8000  font weight  bold  
+ csharp source csharp  kw3  color   008000  
+ csharp source csharp  kw4  color   6666cc  font weight  bold  
+ csharp source csharp  kw5  color   000000  
+ csharp source csharp  co1  color   008080  font style  italic  
+ csharp source csharp  co2  color   008080  
+ csharp source csharp  co3  color   008080  
+ csharp source csharp  coMULTI  color   008080  font style  italic  
+ csharp source csharp  es0  color   008080  font weight  bold  
+ csharp source csharp  es h  color   008080  font weight  bold  
+ csharp source csharp  br0  color   008000  
+ csharp source csharp  sy0  color   008000  
+ csharp source csharp  st0  color   666666  
+ csharp source csharp  st h  color   666666  
+ csharp source csharp  nu0  color   FF0000  
+ csharp source csharp  me1  color   0000FF  
+ csharp source csharp  me2  color   0000FF  
+ csharp source csharp  ln xtra   csharp source csharp li ln xtra   csharp source csharp div ln xtra  background color   ffc  
+ csharp source csharp span xtra   display block   
+
+      
+    
+    
+
+  
+  
+    
+    
+    
+     
+    
+    
+
+    
+    
+      Levenshtein distance
+    
+    
+      
+        From Wikipedia  the free encyclopedia
+      
+      
+      
+        Jump to  
+        navigation  
+        search
+      
+      
+        
+          
+            
+              
+                
+              
+            
+            
+              It has been suggested that this article be 
+              merged into 
+              
+                Edit distance
+                 
+              Discuss  
+              
+                Proposed since January 2014 
+              
+            
+          
+        
+        
+          
+            
+              
+                
+              
+            
+            
+              It has been suggested that 
+              
+                Damerau–Levenshtein distance
+               be 
+              merged into this article   
+              Discuss  
+              
+                Proposed since November 2013 
+              
+            
+          
+        
+        
+          
+            
+              
+                
+                  
+                
+              
+            
+            
+              This article 
+              needs additional citations for 
+              verification  
+              Please help 
+              improve this article by 
+              adding citations to reliable sources  Unsourced material may be challenged and removed  
+              
+                 February 2010 
+              
+            
+          
+        
+        In 
+        information theory and 
+        computer science  the 
+        Levenshtein distance is a 
+        string metric for measuring the difference between two sequences  Informally  the Levenshtein distance between two words is the minimum number of single character edits  i e  insertions  deletions or substitutions  required to change one word into the other  The phrase 
+        
+          edit distance
+         is often used to refer specifically to Levenshtein distance  It is named after 
+        Vladimir Levenshtein  who considered this distance in 1965 
+        
+          
+           1
+           
+         It is closely related to 
+        pairwise string alignments 
+        
+          
+            Contents
+          
+          
+            
+            
+            1 
+            Definition 
+            
+              
+                
+                1 1 
+                Example
+              
+              
+                
+                1 2 
+                Upper and lower bounds
+              
+            
+            
+              
+              2 
+              Applications
+            
+            
+              
+              3 
+              Relationship with other edit distance metrics
+            
+            
+            
+            4 
+            Computing Levenshtein distance 
+            
+              
+                
+                4 1 
+                Recursive
+              
+              
+              
+              4 2 
+              Iterative with full matrix 
+              
+                
+                  
+                  4 2 1 
+                  Proof of correctness
+                
+                
+                  
+                  4 2 2 
+                  Possible modifications
+                
+              
+              
+                
+                4 3 
+                Iterative with two matrix rows
+              
+            
+            
+              
+              5 
+              See also
+            
+            
+              
+              6 
+              References
+            
+            
+              
+              7 
+              External links
+            
+          
+        
+        
+          Definition
+          
+             
+            edit
+             
+          
+        
+        Mathematically  the Levenshtein distance between two strings 
+        
+         is given by 
+        
+         where
+        
+          
+            
+          
+        
+        where 
+        
+         is the indicator function equal to 0 when 
+        
+         and 1 otherwise 
+        Note that the first element in the minimum corresponds to deletion  from 
+        
+         to 
+        
+           the second to insertion and the third to match or mismatch  depending on whether the respective symbols are the same 
+        
+          Example
+          
+             
+            edit
+             
+          
+        
+        For example  the Levenshtein distance between  kitten  and  sitting  is 3  since the following three edits change one into the other  and there is no way to do it with fewer than three edits 
+        
+          
+            k
+            itten → 
+            sitten  substitution of  s  for  k  
+          
+          
+            sitt
+            en → sitt
+            in  substitution of  i  for  e  
+          
+          
+            sittin → sittin
+            g  insertion of  g  at the end  
+          
+        
+        
+          Upper and lower bounds
+          
+             
+            edit
+             
+          
+        
+        The Levenshtein distance has several simple upper and lower bounds  These include 
+        
+          
+            It is always at least the difference of the sizes of the two strings 
+          
+          
+            It is at most the length of the longer string 
+          
+          
+            It is zero if and only if the strings are equal 
+          
+          
+            If the strings are the same size  the 
+            Hamming distance is an upper bound on the Levenshtein distance 
+          
+          
+            The Levenshtein distance between two strings is no greater than the sum of their Levenshtein distances from a third string  
+            triangle inequality  
+          
+        
+        
+          Applications
+          
+             
+            edit
+             
+          
+        
+        In 
+        approximate string matching  the objective is to find matches for short strings in many longer texts  in situations where a small number of differences is to be expected  The short strings could come from a dictionary  for instance  Here  one of the strings is typically short  while the other is arbitrarily long  This has a wide range of applications  for instance  
+        spell checkers  correction systems for 
+        optical character recognition  and software to assist natural language translation based on 
+        translation memory 
+        The Levenshtein distance can also be computed between two longer strings  but the cost to compute it  which is roughly proportional to the product of the two string lengths  makes this impractical  Thus  when used to aid in 
+        fuzzy string searching in applications such as 
+        record linkage  the compared strings are usually short to help improve speed of comparisons 
+        
+          Relationship with other edit distance metrics
+          
+             
+            edit
+             
+          
+        
+        There are other popular measures of 
+        edit distance  which are calculated using a different set of allowable edit operations  For instance 
+        
+          
+            the 
+            Damerau–Levenshtein distance allows insertion  deletion  substitution  and the 
+            transposition of two adjacent characters 
+          
+          
+            the 
+            longest common subsequence metric allows only insertion and deletion  not substitution 
+          
+          
+            the 
+            Hamming distance allows only substitution  hence  it only applies to strings of the same length 
+          
+        
+        
+        Edit distance is usually defined as a parameterizable metric calculated with a specific set of allowed edit operations  and each operation is assigned a cost  possibly infinite   This is further generalized by DNA 
+        sequence alignment algorithms such as the 
+        Smith–Waterman algorithm  which make an operation s cost depend on where it is applied 
+        
+          Computing Levenshtein distance
+          
+             
+            edit
+             
+          
+        
+        
+          Recursive
+          
+             
+            edit
+             
+          
+        
+        A straightforward recursive implementation 
+        LevenshteinDistance function takes two strings  
+        s and 
+        t  and returns the Levenshtein distance between them 
+        
+          
+   len s and len t are the number of characters in string s and t respectively
+int LevenshteinDistance
+ string s
+  
+int len s
+  string t
+  
+int len t
+ 
+ 
+  
+   base case  empty strings   
+  
+if 
+ len s 
+   
+0
+  
+return len t
+ 
+  
+if 
+ len t 
+   
+0
+  
+return len s
+ 
+ 
+  
+   test if last characters of the strings match   
+  
+if 
+ s
+ len s
+ 
+1
+  
+   t
+ len t
+ 
+1
+ 
+  cost 
+  
+0
+ 
+  
+else                          cost 
+  
+1
+ 
+ 
+  
+   return minimum of delete char from s  delete char from t  and delete char from both   
+  
+return minimum
+ LevenshteinDistance
+ s
+  len s 
+  
+1
+  t
+  len t    
+  
+  
+1
+ 
+                 LevenshteinDistance
+ s
+  len s    
+  t
+  len t 
+  
+1
+  
+  
+1
+ 
+                 LevenshteinDistance
+ s
+  len s 
+  
+1
+  t
+  len t 
+  
+1
+  
+  cost
+ 
+ 
+ 
+            
+          
+        
+        Unfortunately  the straightforward recursive implementation is very inefficient because it recomputes the Levenshtein distance of the same substrings many times  A better method would never repeat the same distance calculation  For example  the Levenshtein distance of all possible prefixes might be stored in an array 
+        d     where 
+        d i  j  is the distance between the first 
+        i characters of string 
+        s and the first 
+        j characters of string 
+        t  The table is easy to construct one row at a time starting with row 0  When the entire table has been built  the desired distance is 
+        d len s  len t   While this technique is significantly faster  it will consume 
+        len s   len t more memory than the straightforward recursive implementation 
+        
+          Iterative with full matrix
+          
+             
+            edit
+             
+          
+        
+        
+          
+            
+              
+                Note  This section uses 1 based strings instead of 0 based strings
+              
+            
+          
+        
+        Computing the Levenshtein distance is based on the observation that if we reserve a 
+        matrix to hold the Levenshtein distances between all 
+        prefixes of the first string and all prefixes of the second  then we can compute the values in the matrix in a 
+        dynamic programming fashion  and thus find the distance between the two full strings as the last value computed 
+        This algorithm  an example of bottom up 
+        dynamic programming  is discussed  with variants  in the 1974 article 
+        The 
+        String to string correction problem by Robert A  Wagner and Michael J  Fischer 
+        
+          
+           2
+           
+        
+        A straightforward implementation  as 
+        pseudocode for a function 
+        LevenshteinDistance that takes two strings  
+        s of length 
+        m  and 
+        t of length 
+        n  and returns the Levenshtein distance between them 
+        
+          
+int LevenshteinDistance
+ 
+char s
+ 
+1  
+m
+ 
+  
+char t
+ 
+1  
+n
+ 
+ 
+ 
+  
+   for all i and j  d i j  will hold the Levenshtein distance between
+  
+   the first i characters of s and the first j characters of t 
+  
+   note that d has  m 1   n 1  values
+  declare 
+int d
+ 
+0  
+m
+  
+0  
+n
+ 
+ 
+  clear all elements in d 
+   set each element to zero
+ 
+  
+   source prefixes can be transformed into empty string by
+  
+   dropping all characters
+  
+for i from 
+1 to m
+    
+ 
+      d
+ i
+  
+0
+  
+   i
+    
+ 
+ 
+  
+   target prefixes can be reached from empty source prefix
+  
+   by inserting every characters
+  
+for j from 
+1 to n
+    
+ 
+      d
+ 
+0
+  j
+  
+   j
+    
+ 
+ 
+  
+for j from 
+1 to n
+    
+ 
+      
+for i from 
+1 to m
+        
+ 
+          
+if s
+ i
+  
+  t
+ j
+  then
+            d
+ i
+  j
+  
+   d
+ i
+ 
+1
+  j
+ 
+1
+        
+   no operation required
+          
+else
+            d
+ i
+  j
+  
+   minimum
+                    
+ 
+                      d
+ i
+ 
+1
+  j
+  
+  
+1
+   
+   a deletion
+                      d
+ i
+  j
+ 
+1
+  
+  
+1
+   
+   an insertion
+                      d
+ i
+ 
+1
+  j
+ 
+1
+  
+  
+1 
+   a substitution
+                    
+ 
+        
+ 
+    
+ 
+ 
+  
+return d
+ m
+  n
+ 
+ 
+            
+          
+        
+        Note that this implementation does not fit the 
+        definition precisely  it always prefers matches  even if insertions or deletions provided a better score  This is equivalent  it can be shown that for every optimal alignment  which induces the Levenshtein distance  there is another optimal alignment that prefers matches in the sense of this implementation 
+        
+          
+           3
+           
+        
+        Two examples of the resulting matrix  hovering over a number reveals the operation performed to get that number  
+        
+          
+            
+              
+                
+                  
+                    
+                    
+                    
+                      k
+                    
+                    
+                      i
+                    
+                    
+                      t
+                    
+                    
+                      t
+                    
+                    
+                      e
+                    
+                    
+                      n
+                    
+                  
+                  
+                    
+                    
+                      0
+                    
+                    
+                      1
+                    
+                    
+                      2
+                    
+                    
+                      3
+                    
+                    
+                      4
+                    
+                    
+                      5
+                    
+                    
+                      6
+                    
+                  
+                  
+                    
+                      s
+                    
+                    
+                      1
+                    
+                    
+                      1
+                    
+                    
+                      2
+                    
+                    
+                      3
+                    
+                    
+                      4
+                    
+                    
+                      5
+                    
+                    
+                      6
+                    
+                  
+                  
+                    
+                      i
+                    
+                    
+                      2
+                    
+                    
+                      2
+                    
+                    
+                      1
+                    
+                    
+                      2
+                    
+                    
+                      3
+                    
+                    
+                      4
+                    
+                    
+                      5
+                    
+                  
+                  
+                    
+                      t
+                    
+                    
+                      3
+                    
+                    
+                      3
+                    
+                    
+                      2
+                    
+                    
+                      1
+                    
+                    
+                      2
+                    
+                    
+                      3
+                    
+                    
+                      4
+                    
+                  
+                  
+                    
+                      t
+                    
+                    
+                      4
+                    
+                    
+                      4
+                    
+                    
+                      3
+                    
+                    
+                      2
+                    
+                    
+                      1
+                    
+                    
+                      2
+                    
+                    
+                      3
+                    
+                  
+                  
+                    
+                      i
+                    
+                    
+                      5
+                    
+                    
+                      5
+                    
+                    
+                      4
+                    
+                    
+                      3
+                    
+                    
+                      2
+                    
+                    
+                      2
+                    
+                    
+                      3
+                    
+                  
+                  
+                    
+                      n
+                    
+                    
+                      6
+                    
+                    
+                      6
+                    
+                    
+                      5
+                    
+                    
+                      4
+                    
+                    
+                      3
+                    
+                    
+                      3
+                    
+                    
+                      2
+                    
+                  
+                  
+                    
+                      g
+                    
+                    
+                      7
+                    
+                    
+                      7
+                    
+                    
+                      6
+                    
+                    
+                      5
+                    
+                    
+                      4
+                    
+                    
+                      4
+                    
+                    
+                      3
+                    
+                  
+                
+              
+              
+                
+                  
+                    
+                    
+                    
+                      S
+                    
+                    
+                      a
+                    
+                    
+                      t
+                    
+                    
+                      u
+                    
+                    
+                      r
+                    
+                    
+                      d
+                    
+                    
+                      a
+                    
+                    
+                      y
+                    
+                  
+                  
+                    
+                    
+                      0
+                    
+                    
+                      1
+                    
+                    
+                      2
+                    
+                    
+                      3
+                    
+                    
+                      4
+                    
+                    
+                      5
+                    
+                    
+                      6
+                    
+                    
+                      7
+                    
+                    
+                      8
+                    
+                  
+                  
+                    
+                      S
+                    
+                    
+                      1
+                    
+                    
+                      0
+                    
+                    
+                      1
+                    
+                    
+                      2
+                    
+                    
+                      3
+                    
+                    
+                      4
+                    
+                    
+                      5
+                    
+                    
+                      6
+                    
+                    
+                      7
+                    
+                  
+                  
+                    
+                      u
+                    
+                    
+                      2
+                    
+                    
+                      1
+                    
+                    
+                      1
+                    
+                    
+                      2
+                    
+                    
+                      2
+                    
+                    
+                      3
+                    
+                    
+                      4
+                    
+                    
+                      5
+                    
+                    
+                      6
+                    
+                  
+                  
+                    
+                      n
+                    
+                    
+                      3
+                    
+                    
+                      2
+                    
+                    
+                      2
+                    
+                    
+                      2
+                    
+                    
+                      3
+                    
+                    
+                      3
+                    
+                    
+                      4
+                    
+                    
+                      5
+                    
+                    
+                      6
+                    
+                  
+                  
+                    
+                      d
+                    
+                    
+                      4
+                    
+                    
+                      3
+                    
+                    
+                      3
+                    
+                    
+                      3
+                    
+                    
+                      3
+                    
+                    
+                      4
+                    
+                    
+                      3
+                    
+                    
+                      4
+                    
+                    
+                      5
+                    
+                  
+                  
+                    
+                      a
+                    
+                    
+                      5
+                    
+                    
+                      4
+                    
+                    
+                      3
+                    
+                    
+                      4
+                    
+                    
+                      4
+                    
+                    
+                      4
+                    
+                    
+                      4
+                    
+                    
+                      3
+                    
+                    
+                      4
+                    
+                  
+                  
+                    
+                      y
+                    
+                    
+                      6
+                    
+                    
+                      5
+                    
+                    
+                      4
+                    
+                    
+                      4
+                    
+                    
+                      5
+                    
+                    
+                      5
+                    
+                    
+                      5
+                    
+                    
+                      4
+                    
+                    
+                      3
+                    
+                  
+                
+              
+            
+          
+        
+        The 
+        invariant maintained throughout the algorithm is that we can transform the initial segment 
+        s 1  i  into 
+        t 1  j  using a minimum of 
+        d i j  operations  At the end  the bottom right element of the array contains the answer 
+        
+          Proof of correctness
+          
+             
+            edit
+             
+          
+        
+        As mentioned earlier  the 
+        invariant is that we can transform the initial segment 
+        s 1  i  into 
+        t 1  j  using a minimum of 
+        d i j  operations  This invariant holds since 
+        
+          
+            It is initially true on row and column 0 because 
+            s 1  i  can be transformed into the empty string 
+            t 1  0  by simply dropping all 
+            i characters  Similarly  we can transform 
+            s 1  0  to 
+            t 1  j  by simply adding all 
+            j characters 
+          
+          
+            If 
+            s i    t j   and we can transform 
+            s 1  i 1  to 
+            t 1  j 1  in 
+            k operations  then we can do the same to 
+            s 1  i  and just leave the last character alone  giving 
+            k operations 
+          
+          
+            Otherwise  the distance is the minimum of the three possible ways to do the transformation 
+            
+              
+                If we can transform 
+                s 1  i  to 
+                t 1  j 1  in 
+                k operations  then we can simply add 
+                t j  afterwards to get 
+                t 1  j  in 
+                k 1 operations  insertion  
+              
+              
+                If we can transform 
+                s 1  i 1  to 
+                t 1  j  in 
+                k operations  then we can remove 
+                s i  and then do the same transformation  for a total of 
+                k 1 operations  deletion  
+              
+              
+                If we can transform 
+                s 1  i 1  to 
+                t 1  j 1  in 
+                k operations  then we can do the same to 
+                s 1  i   and exchange the original 
+                s i  for 
+                t j  afterwards  for a total of 
+                k 1 operations  substitution  
+              
+            
+          
+          
+            The operations required to transform 
+            s 1  n  into 
+            t 1  m  is of course the number required to transform all of 
+            s into all of 
+            t  and so 
+            d n m  holds our result 
+          
+        
+        This proof fails to validate that the number placed in 
+        d i j  is in fact minimal  this is more difficult to show  and involves an 
+        argument by contradiction in which we assume 
+        d i j  is smaller than the minimum of the three  and use this to show one of the three is not minimal 
+        
+          Possible modifications
+          
+             
+            edit
+             
+          
+        
+        Possible modifications to this algorithm include 
+        
+          
+            We can adapt the algorithm to use less space  
+            
+              O
+             
+            min n m   instead of 
+            O 
+            mn   since it only requires that the previous row and current row be stored at any one time 
+          
+          
+            We can store the number of insertions  deletions  and substitutions separately  or even the positions at which they occur  which is always 
+            j 
+          
+          
+            We can normalize the distance to the interval 
+             0 1  
+          
+          
+            If we are only interested in the distance if it is smaller than a threshold 
+            k  then it suffices to compute a diagonal stripe of width 
+            2k 1 in the matrix  In this way  the algorithm can be run in 
+            
+              O
+             
+            kl  time  where 
+            l is the length of the shortest string 
+            
+              
+               4
+               
+            
+          
+          
+            We can give different penalty costs to insertion  deletion and substitution  We can also give penalty costs that depend on which characters are inserted  deleted or substituted 
+          
+          
+            By initializing the first row of the matrix with 
+            0  the algorithm can be used for 
+            fuzzy string search of a string in a text 
+            
+              
+               5
+               
+             This modification gives the end position of matching substrings of the text  To determine the start position of the matching substrings  the number of insertions and deletions can be stored separately and used to compute the start position from the end position 
+            
+              
+               6
+               
+            
+          
+          
+            This algorithm 
+            parallelizes poorly  due to a large number of 
+            data dependencies  However  all the 
+            cost values can be computed in parallel  and the algorithm can be adapted to perform the 
+            minimum function in phases to eliminate dependencies 
+          
+          
+            By examining diagonals instead of rows  and by using 
+            lazy evaluation  we can find the Levenshtein distance in 
+            O 
+            m  1   
+            d   time  where 
+            d is the Levenshtein distance   which is much faster than the regular dynamic programming algorithm if the distance is small 
+            
+              
+               7
+               
+            
+          
+        
+        
+          Iterative with two matrix rows
+          
+             
+            edit
+             
+          
+        
+        It turns out that only two rows of the table are needed for the construction  the previous row and the current row  the one being calculated  
+        The Levenshtein distance may be calculated iteratively using the following algorithm 
+        
+          
+           8
+           
+        
+        
+          
+int LevenshteinDistance
+ 
+string s  
+string t
+ 
+ 
+    
+   degenerate cases
+    
+if 
+ s 
+   t
+  
+return 
+0
+ 
+    
+if 
+ s
+ 
+Length 
+   
+0
+  
+return t
+ 
+Length
+ 
+    
+if 
+ t
+ 
+Length 
+   
+0
+  
+return s
+ 
+Length
+ 
+ 
+    
+   create two work vectors of integer distances
+    
+int
+ 
+  v0 
+  
+new 
+int
+ t
+ 
+Length 
+  
+1
+ 
+ 
+    
+int
+ 
+  v1 
+  
+new 
+int
+ t
+ 
+Length 
+  
+1
+ 
+ 
+ 
+    
+   initialize v0  the previous row of distances 
+    
+   this row is A 0  i   edit distance for an empty s
+    
+   the distance is just the number of characters to delete from t
+    
+for 
+ 
+int i 
+  
+0
+  i 
+  v0
+ 
+Length
+  i
+  
+ 
+        v0
+ i
+  
+  i
+ 
+ 
+    
+for 
+ 
+int i 
+  
+0
+  i 
+  s
+ 
+Length
+  i
+  
+ 
+    
+ 
+        
+   calculate v1  current row distances  from the previous row v0
+ 
+        
+   first element of v1 is A i 1  0 
+        
+     edit distance is delete  i 1  chars from s to match empty t
+        v1
+ 
+0
+  
+  i 
+  
+1
+ 
+ 
+        
+   use formula to fill in the rest of the row
+        
+for 
+ 
+int j 
+  
+0
+  j 
+  t
+ 
+Length
+  j
+  
+ 
+        
+ 
+            
+var cost 
+  
+ s
+ i
+  
+   t
+ j
+ 
+  
+  
+0 
+  
+1
+ 
+            v1
+ j 
+  
+1
+  
+  Minimum
+ v1
+ j
+  
+  
+1  v0
+ j 
+  
+1
+  
+  
+1  v0
+ j
+  
+  cost
+ 
+ 
+        
+ 
+ 
+        
+   copy v1  current row  to v0  previous row  for next iteration
+        
+for 
+ 
+int j 
+  
+0
+  j 
+  v0
+ 
+Length
+  j
+  
+ 
+            v0
+ j
+  
+  v1
+ j
+ 
+ 
+    
+ 
+ 
+    
+return v1
+ t
+ 
+Length
+ 
+ 
+ 
+            
+          
+        
+        
+          See also
+          
+             
+            edit
+             
+          
+        
+        
+          
+            
+              agrep
+            
+            
+              Approximate string matching
+            
+            
+              Bitap algorithm
+            
+            
+              Damerau–Levenshtein distance
+            
+            
+              diff
+            
+            
+              MinHash
+            
+            
+              Dynamic time warping
+            
+            
+              Euclidean distance
+            
+            
+              Fuzzy string searching
+            
+            
+              Hamming weight
+            
+            
+              Hirschberg s algorithm
+            
+            
+              Homology of sequences in genetics
+            
+            
+              Hunt–McIlroy algorithm
+            
+            
+              Jaccard index
+            
+            
+              Jaro–Winkler distance
+            
+            
+              Levenshtein automaton
+            
+            
+              Locality sensitive hashing
+            
+            
+              Longest common subsequence problem
+            
+            
+              Lucene
+               an open source search engine that implements edit distance 
+            
+            
+              Manhattan distance
+            
+            
+              Metric space
+            
+            
+              Most frequent k characters
+            
+            
+              Needleman–Wunsch algorithm
+            
+            
+              Optimal matching
+              algorithm
+            
+            
+              Sequence alignment
+            
+            
+              Similarity space
+              on 
+              Numerical taxonomy
+            
+            
+              Smith–Waterman algorithm
+            
+            
+              Sørensen similarity index
+            
+            
+              String distance metric
+            
+            
+              String similarity function
+            
+            
+              Wagner Fischer algorithm
+            
+          
+        
+        
+          References
+          
+             
+            edit
+             
+          
+        
+        
+          
+            
+            
+              
+                 
+              
+             
+            
+            Влади́мир И  Левенштейн  1965    Двоичные коды с исправлением выпадений  вставок и замещений символов   Binary codes capable of correcting deletions  insertions  and reversals   
+            Доклады Академий Наук СCCP  in Russian  
+            163  4   845–8 
+            
+               
+             Appeared in English as  
+            Levenshtein  Vladimir I   February 1966    Binary codes capable of correcting deletions  insertions  and reversals   
+            Soviet Physics Doklady 
+            10  8   707–710 
+            
+               
+            
+            
+            
+              
+                 
+              
+             
+            
+              Wagner  Robert A   
+              Fischer  Michael J   1974    The String to String Correction Problem   
+              Journal of the ACM 
+              21  1   168–173  
+              doi 
+              10 1145 321796 321811
+              
+                 
+              
+            
+            
+            
+              
+                 
+              
+             
+            
+              Micro optimisation for edit distance computation  is it valid 
+            
+            
+            
+              
+                 
+              
+             
+            
+              Gusfield  Dan  1997   
+              Algorithms on strings  trees  and sequences  computer science and computational biology  Cambridge  UK  Cambridge University Press  pp  263–264  
+              ISBN 
+              0 521 58519 8 
+              
+                 
+              
+            
+            
+            
+              
+                 
+              
+             
+            
+              Navarro  Gonzalo  March 2001    A guided tour to approximate string matching   
+              ACM Computing Surveys 
+              33  1   31–88  
+              doi 
+              10 1145 375360 375365 
+              
+                 
+              
+            
+            
+            
+              
+                 
+              
+             
+            Bruno Woltzenlogel Paleo  
+            An approximate gazetteer for GATE based on levenshtein distance  Student Section of the European Summer School in Logic  Language and Information  
+            ESSLLI   2007 
+            
+            
+              
+                 
+              
+             
+            
+              Allison  L   September 1992   
+               Lazy Dynamic Programming can be Eager   
+              Inf  Proc  Letters 
+              43  4   207–12  
+              doi 
+              10 1016 0020 0190 92 90202 7 
+              
+                 
+              
+            
+            
+            
+              
+                 
+              
+             
+            
+              Hjelmqvist  Sten  26 Mar 2012   
+              
+                Fast  memory efficient Levenshtein algorithm
+              
+              
+                 
+              
+            
+          
+        
+        
+          External links
+          
+             
+            edit
+             
+          
+        
+        
+          
+            
+              
+            
+            
+              The Wikibook 
+              
+                R Programming
+               has a page on the topic of  
+              
+                
+                  Levenshtein distance in R
+                
+              
+            
+          
+        
+        
+          
+            
+              
+            
+            
+              The Wikibook 
+              
+                Algorithm implementation
+               has a page on the topic of  
+              
+                
+                  Levenshtein distance
+                
+              
+            
+          
+        
+        
+          
+            Levenshtein in PostgreSQL
+          
+          
+            Black  Paul E   ed   14 August 2008   
+             Levenshtein distance   
+            Dictionary of Algorithms and Data Structures  online   U S  National Institute of Standards and Technology
+              retrieved 3 April 2013
+            
+               
+            
+          
+        
+
+
+        
+           img alt    height  1  src    en wikipedia org wiki Special CentralAutoLogin start type 1x1  style  border  none  position  absolute   title    width  1   
+        
+      
+      
+        Retrieved from  
+        http   en wikipedia org w index php title Levenshtein distance oldid 600148435 
+      
+      
+        
+          Categories
+           
+          
+            
+              String similarity measures
+            
+            
+              Dynamic programming
+            
+            
+              Quantitative linguistics
+            
+          
+        
+        
+          Hidden categories 
+          
+            
+              Articles to be merged from January 2014
+            
+            
+              All articles to be merged
+            
+            
+              Articles to be merged from November 2013
+            
+            
+              Articles needing additional references from February 2010
+            
+            
+              All articles needing additional references
+            
+            
+              Articles with example pseudocode
+            
+          
+        
+      
+    
+    
+      Navigation menu
+      
+        
+          Personal tools
+          
+            
+              Create account
+            
+            
+              Log in
+            
+          
+        
+        
+          
+            Namespaces
+            
+              
+                
+                  Article
+                
+              
+              
+                
+                  Talk
+                
+              
+            
+          
+          
+            
+            
+              Variants
+              
+            
+          
+        
+        
+          
+            Views
+            
+              
+                
+                  Read
+                
+              
+              
+                
+                  Edit
+                
+              
+              
+                
+                  View history
+                
+              
+            
+          
+          
+            
+              Actions
+              
+            
+          
+          
+            
+              Search
+            
+            
+              
+                
+                
+                
+                
+              
+            
+          
+        
+      
+      
+        
+          
+        
+        
+          Navigation
+          
+            
+              
+                Main page
+              
+              
+                Contents
+              
+              
+                Featured content
+              
+              
+                Current events
+              
+              
+                Random article
+              
+              
+                Donate to Wikipedia
+              
+              
+                Wikimedia Shop
+              
+            
+          
+        
+        
+          Interaction
+          
+            
+              
+                Help
+              
+              
+                About Wikipedia
+              
+              
+                Community portal
+              
+              
+                Recent changes
+              
+              
+                Contact page
+              
+            
+          
+        
+        
+          Tools
+          
+            
+              
+                What links here
+              
+              
+                Related changes
+              
+              
+                Upload file
+              
+              
+                Special pages
+              
+              
+                Permanent link
+              
+              
+                Page information
+              
+              
+                Data item
+              
+              
+                Cite this page
+              
+            
+          
+        
+        
+          Print export
+          
+            
+              
+                Create a book
+              
+              
+                Download as PDF
+              
+              
+                Printable version
+              
+            
+          
+        
+        
+          Languages
+          
+            
+              
+                Afrikaans
+              
+              
+                Català
+              
+              
+                Deutsch
+              
+              
+                Español
+              
+              
+                فارسی
+              
+              
+                Français
+              
+              
+                Italiano
+              
+              
+                עברית
+              
+              
+                Latviešu
+              
+              
+                Nederlands
+              
+              
+                日本語
+              
+              
+                Norsk nynorsk
+              
+              
+                Plattdüütsch
+              
+              
+                Polski
+              
+              
+                Português
+              
+              
+                Русский
+              
+              
+                Simple English
+              
+              
+                Српски   srpski
+              
+              
+                Suomi
+              
+              
+                Svenska
+              
+              
+                ไทย
+              
+              
+                Тоҷикӣ
+              
+              
+                Українська
+              
+              
+                Tiếng Việt
+              
+              
+                中文
+              
+              
+                
+              
+              
+                Edit links
+              
+            
+          
+        
+      
+    
+    
+      
+        
+          This page was last modified on 18 March 2014 at 12 34 
+          
+
+          
+        
+        
+          Text is available under the 
+          Creative Commons Attribution ShareAlike License
+            additional terms may apply  By using this site  you agree to the 
+          Terms of Use and 
+          Privacy Policy 
+          
+
+          Wikipedia® is a registered trademark of the 
+          Wikimedia Foundation  Inc   a non profit organization 
+        
+      
+      
+        
+          Privacy policy
+        
+        
+          About Wikipedia
+        
+        
+          Disclaimers
+        
+        
+          Contact Wikipedia
+        
+        
+          Developers
+        
+        
+          Mobile view
+        
+      
+      
+        
+          
+            
+          
+        
+        
+          
+            
+          
+        
+      
+    
+
+   lt    window jQuery  amp  amp  jQuery ready         
+    
+
+if window mw  
+mw loader state   site   loading   user   ready   user groups   ready    
+ 
+    
+
+if window mw  
+mw loader load   ext cite   mobile desktop   mediawiki action view postEdit   mediawiki user   mediawiki hidpi   mediawiki page ready   mediawiki searchSuggest   ext gadget teahouse   ext gadget ReferenceTooltips   ext gadget DRN wizard   ext gadget charinsert   mw MwEmbedSupport style   ext wikimediaShopLink core   ext navigationTiming   schema UniversalLanguageSelector   ext uls eventlogger   ext uls interlanguage   skins vector collapsibleNav   null true  
+ 
+    
+    
+     Served by mw1041 in 0 244 secs     
+    body 
+  html </text><significantWords maxFrequency="2" maxLength="7" minFrequency="1" minLength="7" onlyWithCategory="false"><word categories="" frequency="2" text="metrics"/><word categories="date,month" frequency="2" text="October"/><word categories="" frequency="2" text="usually"/><word categories="" frequency="2" text="improve"/><word categories="" frequency="2" text="include"/><word categories="country_adj" frequency="2" text="Russian"/><word categories="" frequency="2" text="Example"/><word categories="person_first,female" frequency="2" text="Allison"/><word categories="" frequency="2" text="science"/><word categories="" frequency="2" text="Discuss"/><word categories="" frequency="2" text="display"/><word categories="" frequency="2" text="coMULTI"/><word categories="" frequency="2" text="Baumann"/><word categories="" frequency="2" text="toolbar"/><word categories="" frequency="2" text="mention"/><word categories="" frequency="2" text="program"/><word categories="" frequency="2" text="Special"/><word categories="" frequency="2" text="capable"/><word categories="" frequency="2" text="problem"/><word categories="" frequency="2" text="penalty"/><word categories="" frequency="2" text="smaller"/><word categories="" frequency="2" text="because"/><word categories="" frequency="2" text="minimal"/><word categories="" frequency="2" text="prefers"/><word categories="" frequency="2" text="optimal"/><word categories="" frequency="2" text="segment"/><word categories="" frequency="2" text="initial"/><word categories="" frequency="2" text="returns"/><word categories="" frequency="2" text="Privacy"/><word categories="" frequency="2" text="Contact"/><word categories="" frequency="2" text="default"/><word categories="" frequency="2" text="options"/><word categories="" frequency="1" text="popular"/><word categories="" frequency="1" text="longest"/><word categories="" frequency="1" text="roughly"/><word categories="" frequency="1" text="product"/><word categories="" frequency="1" text="lengths"/><word categories="" frequency="1" text="linkage"/><word categories="" frequency="1" text="systems"/><word categories="" frequency="1" text="natural"/><word categories="" frequency="1" text="optical"/><word categories="" frequency="1" text="greater"/><word categories="" frequency="1" text="several"/><word categories="" frequency="1" text="sitting"/><word categories="" frequency="1" text="symbols"/><word categories="" frequency="1" text="whether"/><word categories="" frequency="1" text="related"/><word categories="" frequency="1" text="closely"/><word categories="" frequency="1" text="removed"/><word categories="" frequency="1" text="sources"/><word categories="" frequency="1" text="startup"/><word categories="" frequency="1" text="showdyk"/><word categories="" frequency="1" text="enabled"/><word categories="" frequency="1" text="Section"/><word categories="" frequency="1" text="Student"/><word categories="" frequency="1" text="Letters"/><word categories="" frequency="1" text="account"/><word categories="" frequency="1" text="вставок"/><word categories="" frequency="1" text="hashing"/><word categories="" frequency="1" text="Longest"/><word categories="" frequency="1" text="Optimal"/><word categories="" frequency="1" text="biology"/><word categories="" frequency="1" text="Gonzalo"/><word categories="" frequency="1" text="Navarro"/><word categories="" frequency="1" text="Surveys"/><word categories="" frequency="1" text="Доклады"/><word categories="" frequency="1" text="Physics"/><word categories="" frequency="1" text="Doklady"/><word categories="" frequency="1" text="Journal"/><word categories="" frequency="1" text="Problem"/><word categories="" frequency="1" text="integer"/><word categories="" frequency="1" text="vectors"/><word categories="" frequency="1" text="Jaccard"/><word categories="" frequency="1" text="Winkler"/><word categories="" frequency="1" text="McIlroy"/><word categories="" frequency="1" text="warping"/><word categories="" frequency="1" text="MinHash"/><word categories="" frequency="1" text="formula"/><word categories="" frequency="1" text="Minimum"/><word categories="" frequency="1" text="deleted"/><word categories="" frequency="1" text="regular"/><word categories="" frequency="1" text="adapted"/><word categories="" frequency="1" text="perform"/><word categories="" frequency="1" text="However"/><word categories="" frequency="1" text="declare"/><word categories="" frequency="1" text="reached"/><word categories="" frequency="1" text="another"/><word categories="" frequency="1" text="induces"/><word categories="" frequency="1" text="reveals"/><word categories="" frequency="1" text="earlier"/><word categories="" frequency="1" text="section"/><word categories="" frequency="1" text="consume"/><word categories="" frequency="1" text="desired"/><word categories="" frequency="1" text="fashion"/><word categories="" frequency="1" text="reserve"/><word categories="" frequency="1" text="defined"/><word categories="" frequency="1" text="allowed"/><word categories="" frequency="1" text="applies"/><word categories="" frequency="1" text="applied"/><word categories="" frequency="1" text="further"/><word categories="" frequency="1" text="Commons"/><word categories="" frequency="1" text="Русский"/><word categories="" frequency="1" text="nynorsk"/><word categories="" frequency="1" text="Español"/><word categories="" frequency="1" text="Deutsch"/><word categories="" frequency="1" text="Svenska"/><word categories="" frequency="1" text="Related"/><word categories="" frequency="1" text="version"/><word categories="" frequency="1" text="Actions"/><word categories="" frequency="1" text="history"/><word categories="" frequency="1" text="Article"/><word categories="" frequency="1" text="content"/><word categories="" frequency="1" text="Current"/><word categories="" frequency="1" text="loading"/><word categories="" frequency="1" text="desktop"/><word categories="" frequency="1" text="wgTitle"/><word categories="" frequency="1" text="magnify"/><word categories="" frequency="1" text="hidesig"/><word categories="" frequency="1" text="preview"/><word categories="" frequency="1" text="publish"/><word categories="" frequency="1" text="dialogs"/><word categories="" frequency="1" text="quality"/><word categories="" frequency="1" text="release"/><word categories="" frequency="1" text="wllimit"/><word categories="" frequency="1" text="rclimit"/><word categories="" frequency="1" text="unknown"/></significantWords></site>

@@ -1,0 +1,10 @@
+Phase: SignificantWordsPhase
+Input: Token
+Options: control=appelt debug=true
+ 
+Rule: SignificantWords
+(
+  {Token.kind == "word" , Token.length > 3}
+):wordsRef
+-->
+ :wordsRef.SignificantWord = { rule= "SignificantWords" }
